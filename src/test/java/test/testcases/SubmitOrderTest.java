@@ -44,7 +44,7 @@ public class SubmitOrderTest extends BaseTest {
 //		orderConfirmationPage.confirmEntry();
 	}
 	
-	@Test(dependsOnMethods= {"submitOrder"})
+	@Test(dependsOnMethods= {"confirmThankyou"})
 	public void checkOrderHistory() throws IOException, InterruptedException
 	{
 		orderConfirmationPage.confirmEntry();
