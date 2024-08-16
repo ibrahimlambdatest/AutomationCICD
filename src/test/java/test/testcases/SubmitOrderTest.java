@@ -47,6 +47,7 @@ public class SubmitOrderTest extends BaseTest {
 	@Test(dependsOnMethods= {"confirmThankyou"})
 	public void checkOrderHistory() throws IOException, InterruptedException
 	{
+		//just added this comment for trying out Jenkins CI/CD
 		orderConfirmationPage.confirmEntry();
 	}
 
